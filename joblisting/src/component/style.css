@@ -13,3 +13,13 @@ h1:hover{
     background-color: hsl(180, 29%, 50%);
     color: white;
   }
+
+  .close:hover{
+    cursor: pointer;
+  }
+  
+  .clear-span:hover{
+    color:hsl(180, 40%, 43%);
+    cursor: pointer;
+    text-decoration: underline;
+  }
