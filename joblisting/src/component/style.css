@@ -1,0 +1,15 @@
+h1:hover{
+    color: hsl(180, 40%, 43%)
+  }
+  
+  .btn-skills{
+    margin-left: 0;
+    border: none;
+    border-radius: 5px;
+    color: hsl(182, 71%, 42%)
+  }
+  
+  .btn-skills:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+  }
