@@ -1,7 +1,14 @@
 import logo from './logo.svg';
+import data from "../public/data.json";
 import './App.css';
 
 function App() {
+
+  const [filterKeywords, setfilterKeywords] = useState([]);
+
+  const addFilterKeywords= (data) => {
+    if(!filterKeywords.includes(data))
+  }
   return (
     <div className="App">
       <header className="App-header">
