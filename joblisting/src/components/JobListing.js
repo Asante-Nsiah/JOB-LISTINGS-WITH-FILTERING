@@ -21,6 +21,10 @@ const JobListing = ({ job, setActiveFilters, activeFilters }) => {
     tools,
   } = job;
 
+  const classes = {
+    tag: "hover:text-white hover:bg-cyan-default ",
+  };
+
   const tags = [level, role, ...tools, ...languages];
   return (
     <div className="container-main">
