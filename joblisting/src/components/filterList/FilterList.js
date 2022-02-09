@@ -9,11 +9,6 @@ const Filters = ({ activeFilters, handleRemove, clearFilters }) => {
               type="button"
               onClick={() => handleRemove(filter)}
               className={classes.removeButton}
-              style={{
-                backgroundImage: "url(./images/icon-remove.svg)",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-              }}
             ></button>
           </li>
         ))}
