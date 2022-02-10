@@ -22,6 +22,9 @@ const JobListing = ({ job, setActiveFilters, activeFilters }) => {
   } = job;
 
   const tags = [level, role, ...tools, ...languages];
+  const classes = {
+    tag: "hover:text-white hover:bg-cyan-default"
+  }
   return (
     <div
       className={`${classes.wrapper} ${featured ? classes.featuredJob : ""}`}
