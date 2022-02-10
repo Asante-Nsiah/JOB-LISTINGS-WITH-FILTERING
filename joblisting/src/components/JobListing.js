@@ -23,6 +23,8 @@ const JobListing = ({ job, setActiveFilters, activeFilters }) => {
 
   const classes = {
     tag: "hover:text-white hover:bg-cyan-default ",
+
+    tag: "bg-cyan-light text-white px-2 pt-2 pb-1 rounded text-sm font-bold",
   };
 
   const tags = [level, role, ...tools, ...languages];
