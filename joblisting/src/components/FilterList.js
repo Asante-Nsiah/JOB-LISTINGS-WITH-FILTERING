@@ -9,6 +9,7 @@ const Filters = ({ activeFilters, handleRemove, clearFilters }) => {
     list: "flex gap-4 flex-wrap",
     filterItem:
       "bg-cyan-light text-cyan-default px-2 pt-2 pb-1 pr-10 rounded text-sm font-bold relative",
+
   };
   return (
     <div className={classes.wrapper}>
